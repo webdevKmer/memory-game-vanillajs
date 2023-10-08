@@ -7,4 +7,42 @@
 body{
     background-color: whitesmoke;
     color: gray;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.tiles{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 1rem;
+}
+.tile{
+    height: 100px;
+    border: 1px solid darkblue;
+    border-radius: .5rem;
+}
+.tile:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+.grey{
+    background-color: grey;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.indigo{
+    background-color: indigo;
 }
